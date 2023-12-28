@@ -1,0 +1,12 @@
+{
+  "exclude": ["node_modules", "build"],
+  "extends": "@ezisnap/typescript-config/remix.json",
+  "compilerOptions": {
+    "rootDir": "app",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    }
+  },
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"]
+}

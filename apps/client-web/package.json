@@ -1,0 +1,35 @@
+{
+  "name": "client-web",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev --manual",
+    "lint": "eslint app/ --fix",
+    "start": "remix-serve ./build/index.js",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf build && rm -rf public/build"
+  },
+  "dependencies": {
+    "@remix-run/css-bundle": "^2.4.1",
+    "@remix-run/node": "^2.4.1",
+    "@remix-run/react": "^2.4.1",
+    "@remix-run/serve": "^2.4.1",
+    "isbot": "^3.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@ezisnap/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.4.1",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.1.6",
+    "@ezisnap/eslint-config": "workspace:*",
+    "@ezisnap/typescript-config": "workspace:*"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
