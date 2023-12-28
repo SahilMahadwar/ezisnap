@@ -1,4 +1,8 @@
 {
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./"
+  },
   "extends": "@ezisnap/typescript-config/nest.json"
 }
