@@ -1,2 +1,2 @@
-export { Link } from "./Link";
-export { CounterButton } from "./CounterButton";
+// shared component exports
+export * from "./shared/button";

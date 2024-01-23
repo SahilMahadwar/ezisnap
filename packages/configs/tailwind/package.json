@@ -1,0 +1,17 @@
+{
+  "name": "@ezisnap/tailwind-config",
+  "version": "1.0.0",
+  "main": "tailwind.config.ts",
+  "license": "MIT",
+  "files": [
+    "tailwind.config.ts",
+    "theme.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "tailwindcss": "^3.4.1"
+  }
+}

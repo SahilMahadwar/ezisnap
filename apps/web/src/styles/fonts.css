@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/GeistVariableVF.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Override";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Segoe UI"), local(-apple-system), local(sans-serif),
+    local(ui-sans-serif);
+  ascent-override: 84.57%;
+  descent-override: 27.27%;
+  line-gap-override: 0%;
+  size-adjust: 115.3%;
+}
